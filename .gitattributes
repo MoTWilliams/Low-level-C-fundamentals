@@ -1,0 +1,8 @@
+# .gitattributes
+* text=auto
+*.S  text eol=lf
+*.s  text eol=lf
+*.c  text eol=lf
+*.h  text eol=lf
+*.ld text eol=lf
+*.txt text eol=lf
