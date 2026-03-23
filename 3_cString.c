@@ -1,8 +1,5 @@
-// Morgan Williams - mtw0067
-// CSCE 2610.001
-
-// PA1-Program 3: Print the number of words, vowels, letters, and digits in a 
-// c-string. Determination of character types is done using bit manipulation 
+// Print the number of words, vowels, letters, and digits in a c-string.
+// Determination of character types is done using bit manipulation 
 // and characters' integer ASCII values.
 
 #include <stdio.h>              // For capturing input and displaying output
@@ -44,8 +41,6 @@
 #define LEN_MAX 255             // Max length of input string
 
 int main() {
-        printf("Problem 3: C strings\n\n");
-
         printf("Enter a sentence with max 255 characters\n> ");
         fflush(stdout);
 

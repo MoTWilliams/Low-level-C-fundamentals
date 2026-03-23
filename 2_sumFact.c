@@ -1,18 +1,14 @@
-// Morgan Williams - mtw0067
-// CSCE 2610.001
-
-// PA1-Program 2: Perform summation of a factorial function, using 64-bit 
-// unsigned integers
+// Perform summation of a factorial function with a single loop
 
 #include <stdio.h>
 #include <stdint.h>
 #include <inttypes.h>
 
 int main() {
-        printf("                                                  a\n");
-        printf("Problem 2: Summation of factorial function -- ");
+        printf("                                       a\n");
+        printf("Summation of factorial function -- ");
         printf("y = Σ (n! + b)\n");
-        printf("                                                 n=1\n");
+        printf("                                      n=1\n");
 
         // Capture and verify input
         uint64_t a, b;

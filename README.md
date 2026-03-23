@@ -1,18 +1,14 @@
-Morgan Williams - mtw0067
-CSCE 2610.001
-Sep 11, 2025
+# Low-Level C Fundamentals
 
-Programming Assignment 1 - C Review
+A set of small C programs focused on manual execution of fundamental operations. The tasks are performed using explicit loops, manual input handling, and minimal reliance on library functions with the goal of better understanding how things work under the hood.
 
-While in the mtw0067_PA1/ directory, run `make` to compile all problems. 
-Run each with the following commands:
+Build: `make`
+Run: `make 1`, `make 2`, `make 3`, `make 4`
+Clean: `make clean`
 
-Problem 1: Sum of an Exponential Function       `make 1`
-Problem 2: Sum of a Factorial Function          `make 2`
-Problem 3: C Strings                            `make 3`
-Problem 4: Approximation of sin(x^2)            `make 4`
+### Programs:
+1. **Exponential Series**: Summation of *a*^*n* - *b* using a single loop.
+2. **Factorial Series**: Summation of *n*! + *b* with 64-bit arithmetic.
+3. **C-String Analysis**: Character-by-character parsing with ASCII math and bitwise operations (no helpers)
+4. **sin(x^2) Approximation**: Series-based approximation with range reduction
 
-To test, run the desired program with its respective command and follow the 
-prompts. Run the program once for each test case.
-
-Remove build files after testing with `make clean`

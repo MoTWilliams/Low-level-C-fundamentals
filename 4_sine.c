@@ -1,8 +1,4 @@
-// Morgan Williams - mtw0067
-// CSCE 2610.001
-
-// PA1-Program 4: Perform summation of sin(x^2) function, using 32-bit floats 
-// and 32-bit unsigned integers
+// Perform series approximation of sin(x^2) using a single loop
 
 #include <stdio.h>
 #include <stdint.h>     
@@ -12,10 +8,10 @@
 #define TWO_PI 6.2831852f
 
 int main() {
-        printf("                                              a\n");
-        printf("Problem 4: Sine of x^2 function -- ");
+        printf("                                 a\n");
+        printf("Sine of x^2 function -- ");
         printf("sin(x^2) = Σ [(-1)^n * x^(4n+2) / (2n+1)!]\n");
-        printf("                                             n=0\n");
+        printf("                                n=0\n");
 
         // Capture and validate input. a is cast to uint32_t after validation
         int a_raw;      // For checking that input a is valid

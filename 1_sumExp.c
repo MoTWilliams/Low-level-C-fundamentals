@@ -1,8 +1,4 @@
-// Morgan Williams - mtw0067
-// CSCE 2610.001
-
-// PA1-Program 1: Perform summation of an exponential function, using 32-bit 
-// unsigned integers
+// Perform summation of an exponential function with a single loop
 
 #include <stdio.h>
 
@@ -10,10 +6,10 @@
 #include <inttypes.h>   
 
 int main() {
-        printf("                                                    a\n");
-        printf("Problem 1: Summation of exponential function -- ");
+        printf("                                         a\n");
+        printf("Summation of exponential function -- ");
         printf("y = Σ (a^n - b)\n");
-        printf("                                                   n=1\n");
+        printf("                                        n=1\n");
         
         // Capture and verify input
         uint32_t a, b;
